@@ -4,7 +4,7 @@ import GradientButton from "./GradientButton";
 
 const OurWork = () => {
   return (
-    <div className="py-8 container mx-auto lg:h-[80vh] md:h-[200vh] sm:h-[125vh] ss:h-[100vh] xs:h-[160vh]">
+    <div className="py-8 container mx-auto lg:h-[80vh] md:h-[200vh] sm:h-[145vh] ss:h-[100vh] xs:h-[160vh]">
       <div className="items-center justify-center text-left text-[#B5B5B6]">
         <div className="flex justify-center items-center">
           <div className="border-r w-[6px] h-[42px] top-30 left-[482] bg-[#91BC4D] mr-2" />
