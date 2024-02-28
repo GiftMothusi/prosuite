@@ -9,14 +9,14 @@ const Footer = () => {
     <div className="-mt-[145px]">
       <div className="w-full mt-24 footer-gradient text-white py-2">
         <div className=" mx-auto grid grid-cols-2 md:grid-cols-6 py-8 px-20">
-          <div className="col-span-2 px-16 py-10">
+          <div className="col-span-2 px-16 py-10 pb-[20px] mb-[110px]">
             <img
               src={footer_logo}
               alt="footerLogo"
               className="w-1/2 h-1/2 py-5 lg:mt-[-62px]"
             />
-            <div>
-              <p className="font-sans font-normal leading-5 text-xs pb-[20px] lg:mt-0 sm:mt-[10px]">
+            <div className="w-full">
+              <p className="font-sans font-normal leading-5 text-xs ">
                 ProSuite is a suite of cloud-based platforms which aims at
                 transforming and automating enterprise tasks. Our solutions
                 focus on user experience and easy-to-use tools including Asset
