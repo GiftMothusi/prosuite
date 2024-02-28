@@ -4,7 +4,7 @@ import { about_img } from "../assets";
 const AboutUs = () => {
   return (
     <>
-      <div className="font-sans w-full">
+      <div className="font-sans w-full lg:h-[100vh] md:h-[120vh] sm:h-[120vh] xs:h-[200vh] ss:h-[120vh]">
         <div className="flex justify-center items-center">
           <div className="border-r w-[6px] h-[42px] left-[482] bg-[#91BC4D] mr-2" />
           <h1 className="text-gradient font-bold text-3xl">

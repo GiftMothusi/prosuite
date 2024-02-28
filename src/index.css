@@ -26,6 +26,7 @@
     transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
+
 :root {
   --black-gradient: linear-gradient(
     144.39deg,

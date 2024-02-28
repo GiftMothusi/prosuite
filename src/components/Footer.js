@@ -6,14 +6,14 @@ import { FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="-mt-[140px]">
+    <div className="-mt-[145px]">
       <div className="w-full mt-24 footer-gradient text-white py-2">
         <div className=" mx-auto grid grid-cols-2 md:grid-cols-6 py-8 px-20">
           <div className="col-span-2 px-8">
             <img
               src={footer_logo}
               alt="footerLogo"
-              className="w-1/2 h-1/2 py-5"
+              className="w-1/3 h-1/3 py-5"
             />
             <p className="font-sans font-normal leading-5 text-xs">
               ProSuite is a suite of cloud-based platforms which aims at

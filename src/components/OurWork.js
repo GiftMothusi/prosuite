@@ -4,24 +4,23 @@ import GradientButton from "./GradientButton";
 
 const OurWork = () => {
   return (
-    <div className="py-6">
-      <div className="flex justify-center items-center">
-        <div className="border-r w-[6px] h-[42px] top-30 left-[482] bg-[#91BC4D] mr-2" />
-        <h1 className="text-gradient font-bold text-4xl leading-[96.5px]">
-          Our{" "}
-          <span className="text-2xl ml-1 font-normal text-gradient">
-            Solutions
-          </span>
-        </h1>
-      </div>
-
-      <div className="flex items-center justify-center text-left text-[#B5B5B6] h-[200vh] md:h-[50vh] sm:h-[110vh] ss:h-[100vh] xs:h-[150vh] container mx-auto">
+    <div className="py-8 container mx-auto lg:h-[80vh] md:h-[200vh] sm:h-[110vh] ss:h-[100vh] xs:h-[160vh]">
+      <div className="items-center justify-center text-left text-[#B5B5B6]">
+        <div className="flex justify-center items-center">
+          <div className="border-r w-[6px] h-[42px] top-30 left-[482] bg-[#91BC4D] mr-2" />
+          <h1 className="text-gradient font-bold text-4xl leading-[96.5px] ">
+            Our{" "}
+            <span className="text-2xl ml-1 font-normal text-gradient">
+              Solutions
+            </span>
+          </h1>
+        </div>
         {/**GRID LAYER */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/**CARD 1 */}
           <div className="">
             <div className="p-5 flex flex-col">
-              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient">
+              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient p-4">
                 Asset Management{" "}
               </h5>
               <p className="font-sans font-normal leading-6 text-base mt-3">
@@ -37,7 +36,7 @@ const OurWork = () => {
           {/**CARD 2*/}
           <div className="">
             <div className="p-5 flex flex-col">
-              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient">
+              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient p-4">
                 Risk Management
               </h5>
               <p className="font-sans font-normal leading-6 text-base mt-3">
@@ -54,7 +53,7 @@ const OurWork = () => {
           {/**CARD 3 */}
           <div className="">
             <div className="p-5 flex flex-col">
-              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient">
+              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient p-4">
                 Documents Management
               </h5>
               <p className="font-sans font-normal leading-6 text-base mt-3">
@@ -69,7 +68,7 @@ const OurWork = () => {
           {/**CARD 4 */}
           <div className="">
             <div className="p-5 flex flex-col">
-              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient">
+              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient p-4">
                 Perfomance Management
               </h5>
               <p className="font-sans font-normal leading-6 text-base mt-3">
@@ -84,7 +83,7 @@ const OurWork = () => {
           {/**CARD 5 */}
           <div className="">
             <div className="p-5 flex flex-col">
-              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient">
+              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient p-4">
                 Audit
               </h5>
               <p className="font-sans font-normal leading-6 text-base mt-3">
@@ -99,7 +98,7 @@ const OurWork = () => {
           {/**CARD 6 */}
           <div className="">
             <div className="p-5 flex flex-col">
-              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient">
+              <h5 className="font-sans font-semibold text-2xl leading-4 md:text-xl text-gradient p-4">
                 Compliance Management
               </h5>
               <p className="font-sans font-normal leading-6 text-base mt-3">
