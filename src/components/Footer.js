@@ -6,13 +6,13 @@ import { FaFacebookF, FaInstagram, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="footer-gradient text-white py-8">
+    <footer className="footer-gradient text-white py-8 pt-10">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
         <div className="">
           <img
             src={footer_logo}
             alt="Your Alt Text"
-            className="w-1/3 h-1/3  mb-1"
+            className="w-1/3 h-1/3 p-0 mt-[-10px]"
           />
           <p className="font-montserrat font-normal text-xs leading-4 py-10">
             {" "}
@@ -55,12 +55,12 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div className="font-montserrat flex flex-col max-w-[1400px] py-4 mx-auto justify-between sm:flex-row text-center text-white">
-        <p className="text-xs leading-4 py-4">
+      <div className="w-full font-montserrat flex flex-col py-4 mx-auto justify-between sm:flex-row text-white">
+        <p className="text-xs leading-4 py-4 px-12">
           2024&copy; ProSuite.All rights reserved{" "}
           <span className="px-20">Privacy Policy</span>
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 px-12 relative">
           <BsTwitterX className="icon" />
           <FaFacebookF className="icon" />
           <FaInstagram className="icon" />
